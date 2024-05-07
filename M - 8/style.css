@@ -1,0 +1,140 @@
+/* .sort
+{
+    width: 160px;
+    height: 40px;    
+    border: 1px solid gray;
+    background-color: #999999;
+    font-weight: bold;
+    padding-left:6px;
+} */
+.blog {
+    width: 70px;
+    height: 40px;
+    background-color: red;
+    font-weight: bold;
+}
+
+.first-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: green; */
+    padding-top: 20px;
+}
+
+.logo-pic {
+    width: 190px;
+    height: 40px;
+    /* background-color: red; */
+}
+
+/* .second-part
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+} */
+/* 
+.btn
+{
+    
+} */
+#CategoryButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.imgs {
+    width: 200px;
+    border-radius: 6px;
+}
+
+.borders {
+    width: 202px;
+    height: 280px;
+    border: 1px solid transparent;
+    position: relative;
+    display: inline-block;
+}
+
+#ArrayAllData {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.p-titles {
+    font-size: 13px;
+}
+
+.profile-pics {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-pic {
+    height: 30px;
+    width: 25px;
+    object-fit: cover;
+}
+
+.view {
+    font-size: 10px;
+}
+
+.details-container {
+    display: flex;
+    gap: 4px;
+}
+
+.time {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    font-size: 10px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+.blog a {
+    text-decoration: none;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nextpage {
+    height: 100vh;
+    background-image: url("./5ad47aae12355d55c86bcb408d88ba08.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slider
+{
+    /* background-color: green; */
+    /* width: 170vh; */
+    /* height: 70vh; */
+    padding-top: 140px;
+    padding-left: 90px;
+    padding-right: 90px;
+    /* padding-left: 220px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 0px solid gray; */
+}
